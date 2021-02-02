@@ -1,0 +1,21 @@
+body{
+  display: flex;
+  font-family: 'avenir';
+}
+nav{
+  display: flex;
+  background-color: #e63946;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+}
+nav ul{
+  margin: ;
+  padding: 10px;
+  text-align: center;
+}
+h1{
+  color: darkblue;
+  font-size: 70px;
+  font-weight: bold;
+}
