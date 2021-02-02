@@ -1,0 +1,23 @@
+nav{
+  display: flex;
+  background-color: #bfc0c0;
+  width: 100%;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+nav ul{
+  padding-right: 50px;
+  text-align: right;
+  padding-bottom: 35px;
+  font-family: "avenir";
+  text-decoration: none;
+
+}
+#h1mentions {
+  color: white;
+  font-family: "montserrat black";
+  font-size: 30px;
+  text-align: center;
+  justify-content: center;
+  padding-top: 20px;
+}
