@@ -1,21 +1,26 @@
-body{
+body nav{
   display: flex;
-  font-family: 'avenir';
-}
-nav{
-  display: flex;
-  background-color: #e63946;
   width: 100%;
-  justify-content: center;
-  flex-direction: column;
+  justify-content: flex-end;
+  flex-direction: row;
+  background-color: #eff1f3;
 }
-nav ul{
-  margin: ;
-  padding: 10px;
+body nav ul{
+  padding-right: 50px;
+  text-align: right;
+  padding-bottom: 35px;
+  padding-top: 30px;
+  font-family: "avenir";
+  text-decoration: none;
+  color: #d77a61;
+
+}
+nav h1 {
+  color: #223843;
+  font-family: "montserrat black";
+  font-size: 60px;
   text-align: center;
-}
-h1{
-  color: darkblue;
-  font-size: 70px;
-  font-weight: bold;
+  justify-content: center;
+  padding-top: 25px;
+  margin-right: 260px;
 }

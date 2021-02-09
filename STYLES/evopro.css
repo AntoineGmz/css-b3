@@ -1,0 +1,188 @@
+nav{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  background-color: #fbfbfb;
+  justify-content: space-around;
+  align-items: center;
+}
+nav ul{
+  padding-right: 50px;
+  text-align: right;
+  font-family: "avenir";
+  text-decoration: none;
+  color: #d77a61;
+}
+nav a {
+  color: #223843;
+  text-decoration: none;
+}
+#logoheader{
+  height: 150px;
+}
+#titre {
+  color: #223843;
+  font-family: "montserrat black";
+  font-size: 60px;
+  text-align: center;
+  justify-content: center;
+}
+
+#section1{
+   display: flex;
+   padding-top: 20px;
+   flex-direction: column;
+}
+
+#section1 article{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+section article hr {
+  height: 1px;
+  color: #d8b4a0;
+  background-color: #d8b4a0;
+  width: 90%;
+  border: none;
+  margin: 10px;
+}
+
+section article h2{
+  font-family: "montserrat black";
+  font-size: 40px;
+  color: #d77a61;
+  padding-top: 20px;
+}
+
+section article #soustitreh2{
+  font-family: "avenir";
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 700;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-align: center;
+  line-height: 25px;
+}
+
+section article p{
+  font-family: "avenir";
+  font-size: 14px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-align: left;
+  line-height: 18px;
+  width: 50%;
+}
+.citation{
+  flex-direction: row;
+  justify-content: center;
+}
+.citation p{
+  font-size: 20px;
+  width: 20%;
+  line-height: normal;
+  color: #d77a61;
+  font-style: italic;
+  font-weight: 100;
+}
+
+#guillemet1 {
+  width: 5%;
+  padding-right: 380px;
+  margin-bottom: -60px;
+}
+#guillemet2 {
+  width: 5%;
+  padding-left: 380px;
+  margin-top: -70px;
+}
+
+#logocss{
+  width: 5%;
+}
+
+#section2{
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+  flex-direction: column-reverse;
+}
+.etapes article{
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.etapes h3 {
+  font-family: "montserrat black";
+  font-size: 16pt;
+  padding-bottom: 10px;
+  color: #d8b4a0;
+}
+
+.etapes li {
+  color: #223843;
+  width: 100%;
+  font-weight: 300;
+  font-family: "avenir";
+  font-size: 14px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+.w3c{
+  font-family: avenir;
+  color: #223843;
+}
+
+#logow3c{
+  width: 20%;
+}
+
+.w3c h4 {
+  font-family: "montserrat black";
+  font-size: 16pt;
+  padding-bottom: 10px;
+  color: #d8b4a0;
+}
+
+.w3c p{
+  color: #223843;
+  width: 100%;
+  font-weight: 300;
+  font-family: "avenir";
+  font-size: 14px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.footer{
+  display: flex;
+}
+
+.footer nav{
+  display: flex;
+  border: 1px solid #223843;
+  background-color: #fbfbfb;
+}
+
+.footer ul{
+  padding-top: 20px;
+  text-align: left;
+  margin-top: -30px;
+  flex-direction: row;
+}
+
+#logofooter{
+  height: 150px;
+}
+#section2 div article li {
+  color: #223843;
+}

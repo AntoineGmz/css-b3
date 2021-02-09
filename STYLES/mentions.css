@@ -1,23 +1,129 @@
 nav{
   display: flex;
-  background-color: #bfc0c0;
   width: 100%;
-  justify-content: flex-end;
-  flex-direction: column;
+  flex-direction: row;
+  background-color: #fbfbfb;
+  justify-content: space-around;
+  align-items: center;
 }
 nav ul{
   padding-right: 50px;
   text-align: right;
-  padding-bottom: 35px;
   font-family: "avenir";
   text-decoration: none;
-
+  color: #d77a61;
+}
+nav a {
+  color: #223843;
+  text-decoration: none;
 }
 #h1mentions {
-  color: white;
+  color: #223843;
   font-family: "montserrat black";
-  font-size: 30px;
+  font-size: 60px;
   text-align: center;
   justify-content: center;
+}
+
+#section1{
+   display: flex;
+   padding-top: 20px;
+   flex-direction: column;
+}
+
+#section1 article{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+section article hr {
+  height: 1px;
+  color: #d8b4a0;
+  background-color: #d8b4a0;
+  width: 70%;
+  border: none;
+}
+
+section article h2{
+  font-family: "montserrat black";
+  font-size: 30px;
+  color: #d77a61;
   padding-top: 20px;
+}
+
+section article p{
+  font-family: "avenir";
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-align: center;
+  line-height: 25px;
+}
+
+#photo_van{
+  width: 12%;
+  border: 10px solid #d77a61;
+  border-radius: 100%;
+  justify-content: center;
+}
+
+#section2{
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+}
+
+.etapes h3 {
+  font-family: "montserrat black";
+  font-size: 16pt;
+  padding-bottom: 10px;
+  color: #d8b4a0;
+}
+.etapes li {
+  font-family: "montserrat";
+  font-size: 12pt;
+  padding-bottom: 10px;
+  color: #223843;
+  list-style-type: space-counter;
+}
+.outils h4 {
+  font-family: "montserrat black";
+  font-size: 16pt;
+  padding-bottom: 10px;
+  color: #d8b4a0;
+}
+.outils li {
+  font-family: "montserrat";
+  font-size: 12pt;
+  padding-bottom: 10px;
+  color: #223843;
+}
+.footer{
+  display: flex;
+}
+
+.footer nav{
+  display: flex;
+  border: 1px solid #223843;
+  background-color: #fbfbfb;
+}
+
+.footer ul{
+  padding-top: 20px;
+  text-align: left;
+  margin-top: -30px;
+  flex-direction: row;
+}
+
+#logoheader{
+  height: 150px;
+}
+#logofooter{
+  height: 150px;
+}
+#section2 div article li {
+  color: #223843;
 }
