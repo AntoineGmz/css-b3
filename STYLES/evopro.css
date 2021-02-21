@@ -13,8 +13,29 @@ nav ul{
   text-decoration: none;
   color: #d77a61;
 }
+#menuheader a {
+  color: #223843;
+  text-decoration: none;
+  font-weight: 200;
+  letter-spacing: 0px;
+  transform: scale(1);
+  transition: .3s all ease;
+}
+#menuheader a:hover {
+  color: #223843;
+  text-decoration: none;
+  font-weight: 800;
+  letter-spacing: -1px;
+  transform: scale(1);
+  transition: .3s all ease;
+}
 nav a {
   color: #223843;
+  text-decoration: none;
+  font-weight: 200;
+}
+nav a:hover{
+  color: #d77a61;
   text-decoration: none;
 }
 #logoheader{
